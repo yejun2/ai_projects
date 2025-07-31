@@ -63,7 +63,7 @@ LDM은 다양한 loss를 **적절히 혼합**하여 학습 안정성과 품질�
    - 기본적인 학습 안정성을 제공
 
 2. **KL Divergence Loss (VAE 구조)**  
-   - encoder의 분포가 \( \mathcal{N}(0, I) \)에 가까워지도록 정규화  
+   - encoder의 분포가 N (0, I)에 가까워지도록 정규화  
    - latent space의 **샘플링 가능성 보장**
 
 3. **Perceptual Loss**  
